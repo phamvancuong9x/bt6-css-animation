@@ -32,25 +32,18 @@ body {
   justify-content: space-evenly;
   align-items: center;
 }
-.content__text-1,
-.content__text-4 {
+.content__text-first,
+.content__text-second {
   font-family: 'Dancing Script';
   font-size: 210px;
   color: #fc9486;
 }
-
-.content__text-2 {
-}
-
 .heart {
   animation: heartbeat 5.2s infinite;
   background-color: #fb7e6e;
   display: inline-block;
   height: 102px;
   transform: rotate(-45deg);
-  /* position: absolute;
-  left: 45%;
-  top: 45%; */
   width: 102px;
 }
 
