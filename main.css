@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  padding: 40vh 0;
+  background-color: #fff;
+}
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 70px;
+  width: 100%;
+  background-color: #ffb2a8;
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  line-height: 70px;
+}
+.heart {
+  animation: heartbeat 5.2s infinite;
+  background-color: #fb7e6e;
+  display: inline-block;
+  height: 102px;
+  transform: rotate(-45deg);
+  position: absolute;
+  left: 45%;
+  top: 45%;
+  width: 102px;
+}
+
+.heart:before,
+.heart:after {
+  content: "";
+  background-color: #fb7e6e;
+  border-radius: 50%;
+  height: 102px;
+  position: absolute;
+  width: 102px;
+}
+
+.heart:before {
+  top: -51px;
+  left: 0;
+}
+
+.heart:after {
+  left: 51px;
+  top: 0;
+}
+
+@keyframes heartbeat {
+  0% {
+    transform: scale(1) rotate(-45deg);
+  }
+  5% {
+    transform: scale(1.22) rotate(-45deg);
+  }
+  8% {
+    transform: scale(1.1) rotate(-45deg);
+  }
+  11% {
+    transform: scale(1.22) rotate(-45deg);
+  }
+  20% {
+    transform: scale(1) rotate(-45deg);
+  }
+  25% {
+    transform: scale(1) rotate(-45deg);
+  }
+  30% {
+    transform: scale(1.22) rotate(-45deg);
+  }
+  33% {
+    transform: scale(1.1) rotate(-45deg);
+  }
+  36% {
+    transform: scale(1.22) rotate(-45deg);
+  }
+  46% {
+    transform: scale(1) rotate(-45deg);
+  }
+  100% {
+    transform: scale(1) rotate(-45deg);
+  }
+}
