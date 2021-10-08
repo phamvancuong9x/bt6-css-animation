@@ -29,9 +29,19 @@ body {
   margin: auto;
   height: calc(100vh - 140px);
   background-color: rgb(253, 248, 242);
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
 }
+.content__text-1,
+.content__text-4 {
+  font-family: 'Dancing Script';
+  font-size: 230px;
+  color: #fc9486;
+}
+
+.content__text-2 {
+}
+
 .heart {
   animation: heartbeat 5.2s infinite;
   background-color: #fb7e6e;
