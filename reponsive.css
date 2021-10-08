@@ -1,0 +1,56 @@
+/* PC */
+@media (min-width: 1024px) {
+}
+
+/* Table  and mobile*/
+@media (max-width: 1023px) {
+  .content {
+    flex-direction: column;
+  }
+}
+
+/* mobile */
+@media (max-width: 739px) {
+  .content__text-first,
+  .content__text-second {
+    font-size: 105px;
+  }
+  .heart,
+  .heart:before,
+  .heart:after {
+    height: 80px;
+    width: 80px;
+  }
+
+  .heart:before {
+    top: -40px;
+  }
+
+  .heart:after {
+    left: 40px;
+  }
+}
+/* mobile  xoay ngang*/
+@media (max-width: 850px) and (max-height: 450px) {
+  .content {
+    flex-direction: row;
+  }
+  .content__text-first,
+  .content__text-second {
+    font-size: 105px;
+  }
+  .heart,
+  .heart:before,
+  .heart:after {
+    height: 70px;
+    width: 70px;
+  }
+
+  .heart:before {
+    top: -35px;
+  }
+
+  .heart:after {
+    left: 35px;
+  }
+}
