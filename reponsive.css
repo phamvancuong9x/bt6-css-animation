@@ -36,6 +36,35 @@
   .heart:after {
     left: 40px;
   }
+  .footer__content {
+    width: 240px;
+  }
+  @keyframes author {
+    15% {
+      width: 240px;
+      opacity: 0;
+      transform: translateX(-150px);
+    }
+    30% {
+      opacity: 0;
+      width: 0;
+      transform: translateX(80px);
+    }
+    31% {
+      width: 0;
+      opacity: 1;
+      transform: translateX(80px);
+    }
+    50% {
+      width: 240px;
+      transform: translateX(15px);
+    }
+    100% {
+      width: 240px;
+      transform: translateX(15px);
+    }
+  }
+  
 }
 /* mobile  xoay ngang*/
 @media (max-width: 850px) and (max-height: 450px) {
