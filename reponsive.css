@@ -18,9 +18,12 @@
 }
 /* mobile */
 @media (max-width: 739px) {
+ 
   .content__text-first,
   .content__text-second {
     font-size: 105px;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(200px,300px));
   }
   .heart,
   .heart:before,
