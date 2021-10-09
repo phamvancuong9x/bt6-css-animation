@@ -34,12 +34,12 @@ body {
 }
 .content__text-first,
 .content__text-second {
-  font-family: 'Dancing Script';
+  font-family: "Dancing Script";
   font-size: 205px;
   color: #fc9486;
 }
 .heart {
-  animation: heartbeat 5.2s infinite;
+  animation: heartbeat 2.6s infinite;
   background-color: #fb7e6e;
   display: inline-block;
   height: 102px;
@@ -86,31 +86,31 @@ body {
   0% {
     transform: scale(1) rotate(-45deg);
   }
-  5% {
+  12% {
     transform: scale(1.22) rotate(-45deg);
   }
-  8% {
+  18% {
     transform: scale(1.1) rotate(-45deg);
   }
-  11% {
+  24% {
     transform: scale(1.22) rotate(-45deg);
   }
-  20% {
+  42% {
     transform: scale(1) rotate(-45deg);
   }
-  23% {
+  52% {
     transform: scale(1) rotate(-45deg);
   }
-  27% {
+  64% {
     transform: scale(1.22) rotate(-45deg);
   }
-  30% {
+  70% {
     transform: scale(1.1) rotate(-45deg);
   }
-  33% {
+  76% {
     transform: scale(1.22) rotate(-45deg);
   }
-  43% {
+  96% {
     transform: scale(1) rotate(-45deg);
   }
   100% {
