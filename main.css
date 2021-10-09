@@ -17,7 +17,7 @@ body {
   height: 70px;
   width: 100%;
   max-width: 1200px;
-  background-color: #ffb2a8;
+  background-color: rgb(255,0,0,0.45);
   color: #fff;
   font-size: 30px;
   text-align: center;
@@ -36,11 +36,11 @@ body {
 .content__text-second {
   font-family: "Dancing Script";
   font-size: 205px;
-  color: #fc9486;
+  color: #fd8474;
 }
 .heart {
   animation: heartbeat 2.6s infinite;
-  background-color: #fb7e6e;
+  background-color: #fc7260;
   display: inline-block;
   height: 102px;
   transform: rotate(-45deg);
@@ -50,7 +50,7 @@ body {
 .heart:before,
 .heart:after {
   content: "";
-  background-color: #fb7e6e;
+  background-color: #fc7260;
   border-radius: 50%;
   height: 102px;
   position: absolute;
@@ -70,7 +70,7 @@ body {
 .footer {
   height: 70px;
   width: 100%;
-  background-color: #f1b4ac;
+  background-color: rgb(255,0,0,0.4);
   color: #fff;
   font-size: 22px;
   text-align: center;
